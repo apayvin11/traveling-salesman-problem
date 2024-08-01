@@ -155,9 +155,9 @@ for i in range(MAX_GENERATIONS):
 plt.ioff() # выключаем интерактивный режим
 
 # подводим итоги
-print("Общее время выполнения программы: ", time.time() - start)
-min_fitness_ga = fitness[0] # оно первое, так как сначала отбирали элит
-Best_solve_ga = P[0] # Best chromosome
+print("Общее время выполнения программы: ",  round(time.time() - start), " s")
+min_fitness_ga = fitness[0]  # оно первое, так как сначала отбирали элит
+Best_solve_ga = P[0]  # Best chromosome
 print('Путь генетического алгоритма: ', Best_solve_ga)
 print('Наименьшее расстояние генетического алгоритма: ', min_fitness_ga)
 print('Правильное решение: ', path.getSolve())

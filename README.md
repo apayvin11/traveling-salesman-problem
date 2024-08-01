@@ -68,4 +68,22 @@ MAX_GENERATIONS = 100000    # Number of generations
 NumOfCities = 48            # in our case equal to the size of the chromosome
 ```
 
-![running](resources/running.png)  
+![running](resources/running.gif)  
+
+Result:  
+![result](resources/result.png)  
+
+Output:  
+
+```txt
+Общее время выполнения программы:  536 s
+Путь генетического алгоритма:  [33, 39, 15, 20, 2, 19, 12, 19, 39, 3, 21, 1, 30, 17, 1, 22, 29, 5, 14, 18, 22, 13, 7, 5, 23, 10, 5, 13, 19, 5, 15, 4, 0, 2, 11, 8, 11, 3, 1, 6, 4, 4, 0, 3, 1, 1, 1, 0]
+Наименьшее расстояние генетического алгоритма:  32475.921167861095
+Правильное решение:  [0, 7, 37, 30, 43, 17, 6, 27, 5, 36, 18, 26, 16, 42, 29, 35, 45, 32, 19, 46, 20, 31, 38, 47, 4, 41, 23, 9, 44, 34, 3, 25, 1, 28, 33, 40, 15, 21, 2, 22, 13, 24, 12, 10, 11, 14, 39, 8]
+Общее расстояние правильного решения:  33061.62626367373
+
+```
+
+### Conclusion
+
+The genetic algorithm found a solution better than that presented in the problem statement.  
